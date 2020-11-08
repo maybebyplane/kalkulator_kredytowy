@@ -23,7 +23,6 @@
 </form>
 
 <?php
-	//wyświetlanie listy błędów, jeśli istnieją:
 if (isset($messages)) {
 	echo '<ol style="margin: 40px; border-radius: 15px; padding: 20 px; background-color: #F00; color: white; width: 400px;">';
 	foreach ($messages as $msg) {
